@@ -1,0 +1,108 @@
+header{
+    width: 1349px;
+    height: 150px;
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.search{
+    margin-top: 45px;
+    margin-left: 130px;
+}
+.search input{
+    width: 500px;
+    height: 45px;
+    border-radius: 40px;
+    border:  #cb1d1e solid 2px;
+}
+.search img{
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: 12px;
+    right: 60px;
+}
+.buy{
+    margin-top: 65px;
+    margin-left: 40px;
+}
+.buy img{
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+.buy a{
+    margin-left: 40px;
+    text-decoration: none;
+}
+.login{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.login img{
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: -17px;
+    left: 80px;
+}
+.login a{
+    text-decoration: none;
+}
+nav{
+    width: 1349px;
+    height: 50px;
+    background-color: #cb1d1e;
+    display: flex;
+    color: #ffffff;
+}
+.home img{
+    width: 17px;
+    height: auto;
+    position: relative;
+    top: 15px;
+    left: 135px;
+}
+nav ul{
+    margin-left: 90px;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    padding: 0 50px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #5e3249;
+}
+.phone{
+    margin-left: 70px;
+    margin-top: 2px;
+}
+.phone img{
+    width: 28px;
+    height: auto;
+    position: relative;
+    top: 8px;
+    right: 10px;
+}
+.banner img{
+    width: 1000px;
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;
+}

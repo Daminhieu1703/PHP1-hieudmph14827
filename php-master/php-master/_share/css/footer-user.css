@@ -1,0 +1,56 @@
+footer{
+    width: 1349px;
+    height: 400px;
+    border-top: 5px solid #cb1d1e;
+    background-image: url(../images/anh-website/footer.png);
+    margin-top: 140px;
+}
+.footer-dau{
+    width: 1000px;
+    margin-left: 160px;
+    display: flex;
+}
+.col-footer{
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+}
+.info{
+    margin-left: 20px;
+    color: #ffffff
+}
+.info img{
+    width: 140px;
+}
+.ketnoi{
+    display: flex;
+    margin-top: 20px;
+}
+.socail img{
+    width: 40px;
+}
+h3{
+    font-size: 17px;
+}
+.info-col-1{
+    margin-left: 15px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 13px;
+}
+.info-col-2{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #999999;
+}
+.info-col-3{
+    margin-top: 20px;
+}
+.footer-cuoi{
+    height: 60px;
+    background-color: black;
+    color: rgba(255,255,255,0.5);
+    font-weight: 500;
+    text-align: center;
+    line-height: 60px;
+}

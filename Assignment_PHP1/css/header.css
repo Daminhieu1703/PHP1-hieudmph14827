@@ -1,0 +1,77 @@
+*{box-sizing: border-box;padding: 0;margin: 0;}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+header{
+    height: 70px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    padding: 0;
+}
+header .menu{
+    display: flex;
+}
+header .menu a img{
+    height: 50px;
+    padding: 10px 0 0 20px;
+}
+header .menu nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+header .menu nav ul li{
+    display: inline-block;
+    line-height: 65px;
+    padding: 0 20px 0 20px;
+}
+header .menu nav ul li a:hover{
+    text-decoration: underline;
+}
+header .search-cart form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+header .search-cart{
+    display: flex;
+}
+header .search-cart .cart{
+    line-height: 67px;
+    font-size: 30px;
+    padding-left: 20px;
+    color: black;
+}
+header .search-cart form{
+    padding-top: 17px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 60px;
+    margin-left: 100px;
+}
+header .search-cart form a i{
+    position: absolute;
+    top: 27px;
+    right: 10px;
+}
+header .search-cart .login{
+    line-height: 65px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

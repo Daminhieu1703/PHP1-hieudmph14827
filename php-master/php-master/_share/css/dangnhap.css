@@ -1,0 +1,55 @@
+.dangnhap h3{
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 80px;
+}
+.dangnhap p{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 15px;
+}
+.form-dn{
+    margin-top: 30px;
+    display: block;
+}
+.dn-input label{
+    color: #000000;
+    font-size: 17px;
+}
+.dn-input{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.dn-inputt{
+    width: 555px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #e1e1e1;
+    margin-top: 10px;
+}
+.dn-inputt:active{
+    border: none;
+}
+.btn-bt{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.btn{
+    width: 555px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #e1e1e1;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #000000;
+}
+.btn:hover{
+    background-color: #e1e1e1;
+    color: #000000;
+}
+.btn-bt a{
+    text-decoration: none;
+}

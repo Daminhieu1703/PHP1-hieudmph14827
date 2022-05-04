@@ -1,0 +1,46 @@
+*{box-sizing: border-box;padding: 0;margin: 0;}
+.container{
+    width: 1895px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.product{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.product button{
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    margin: 5px 0 0 45px;
+    background-color: black;
+}
+.product button:hover{
+    background-color:white;
+}
+.product button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+.product h2,h4{
+    text-align: center;
+}
+.product button a:hover{
+    color: black;
+}
+.card-body{
+    position: absolute;
+    bottom: -100px;
+    transition: all 1s ease-in-out;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+}
+.product:hover > .card-body{
+    bottom: 0px;
+}

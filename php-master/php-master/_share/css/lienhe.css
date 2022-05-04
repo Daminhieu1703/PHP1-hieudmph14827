@@ -1,0 +1,52 @@
+
+.lienhe{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.lienhe-info{
+    color: #363636;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.lienhe-info img{
+    width: 50px;
+    height: auto;
+}
+hr{
+    width: 350px;
+    margin-top: 30px;
+}
+.lienhe-title{
+    margin-top: 30px;
+    color: #cb1d1e;
+}
+.form-lh{
+    margin-top: 20px;
+}
+.lh-input{
+    margin-top: 20px;
+}
+.lh-inputt{
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #dddddd;
+}
+.lh-inputct{
+    width: 350px;
+    height: 70px;
+    border-radius: 30px;
+    border: 1px solid #dddddd;
+}
+.btn-lh{
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #999999;
+    background-color: black;
+    color: #ffffff;
+}
+.btn-lh:hover{
+    background-color: #dddddd;
+}

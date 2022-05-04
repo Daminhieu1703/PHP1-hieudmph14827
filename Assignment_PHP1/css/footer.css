@@ -1,0 +1,35 @@
+*{box-sizing: border-box;padding: 0;margin: 0;}
+.all-footer{
+    max-width: 1920px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    height: 300px;
+    display: flex;
+}
+footer a img{
+    padding: 10px 0 0 20px;
+
+}
+footer nav ul{
+    margin-top: 10px;
+}
+footer nav ul li{
+    list-style: none;
+    padding: 0 0 10px 50px;
+}
+footer nav ul>li:first-child{
+    font-weight: bold;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer nav ul li a:hover{
+    text-decoration: underline;
+}

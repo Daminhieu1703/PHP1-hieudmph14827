@@ -1,0 +1,35 @@
+*{box-sizing: border-box;padding: 0;margin: 0;}
+table{
+    border: 2px solid black;
+}
+table thead{
+    background-color: black;
+}
+table thead tr th{
+    color: white;
+    height: 50px;
+}
+th,td{
+    width: 200px;
+}
+tr td,th:first-child{
+    width: 100px;
+}
+tr td{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+tbody tr td button:first-child{
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+tbody tr td button a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+}

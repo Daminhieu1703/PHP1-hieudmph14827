@@ -1,0 +1,138 @@
+/* .sppp{
+    height: 1000px;
+}
+.sanpham-sp{
+    width: 1000px;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.sanpham-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    float: left;
+} 
+.col-sp{
+    display: block;
+    float: left;
+    width: 220px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    
+}
+.col-sp img{
+    width: 140px;
+    height: 140px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 10px;
+}
+.price{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.sp-name-center{
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.sp-name{
+    text-decoration: none;
+}
+.sp-price{
+    font-size: 16px;
+    color: #cb1d1e;
+    font-weight: bolder;
+}
+.price p{
+    margin-top: 10px;
+    text-align: center;
+}
+.sp-detail{
+    width: 90px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 12px;
+    border: 0;
+    background-color: #0a98eb;
+    margin-left: 8px;
+}
+.sp-detail:hover{
+    background-color: #DD9503;
+} */
+
+.sanpham-sp {
+  width: 1000px;
+  margin-left: 160px;
+  margin-top: 50px;
+}
+.col-sp {
+  display: block;
+  float: left;
+  width: 220px;
+  height: 250px;
+  margin-top: 30px;
+  margin: 10px 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+.col-sp img {
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.price {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.sp-name-center {
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.sp-name {
+  text-decoration: none;
+}
+.sp-price {
+  font-size: 16px;
+  color: #cb1d1e;
+  font-weight: bolder;
+}
+.price p {
+  margin-top: 10px;
+  text-align: center;
+}
+.sp-detail {
+  width: 90px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 12px;
+  border: 0;
+  background-color: #0a98eb;
+  margin-left: 8px;
+}
+.sp-detail:hover {
+  background-color: #dd9503;
+}
+.sotrang {
+  margin: 20px 0 0 400px;
+}
+.links {
+  border: 1px solid #ffffff;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0a98eb;
+  margin-right: 2px;
+}
